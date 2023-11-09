@@ -1,0 +1,262 @@
+Bootstrap 5
+CDN:
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+mx-3 = x-axis margin
+mx-4 = x-axis margin
+mx-5 = x-axis margin
+mx-6 = x-axis margin
+
+my-3 = y-axis margin
+my-4 = y-axis margin
+my-5 = y-axis margin
+my-6 = y-axis margin
+
+
+1. Beginning
+    - container
+    - container-fluid
+    - container-sm
+    - container-md
+    - container-lg
+    - container-xl
+    - container-xxl
+
+2. Grid System
+    - .col- (extra small devices - screen width less than 576px)
+    - .col-sm- (small devices - screen width equal to or greater than 576px)
+    - .col-md- (medium devices - screen width equal to or greater than 768px)
+    - .col-lg- (large devices - screen width equal to or greater than 992px)
+    - .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+    - .col-xxl- (xxlarge)
+
+3. Typography
+    - Default font size 16px
+    - line-height 1.5
+    - h1,h2,h3,h4,h5 and h6
+    - display-1, display-2, display-3, display-4, display-5, display-6.
+    - .small
+    - .mark
+    - .abbr
+    - .blockquote, .blockquote-footer
+    - text-center
+    - text-decoration-none
+    - text-start (aligned left)
+    - text-end (aligned right)
+    - list-unstyled
+
+4. Text colors
+    - text-muted (more dull)
+    - text-primary (navy blue)
+    - text-success (green)
+    - text-info (sky blue)
+    - text-warning (yellow)
+    - text-danger (red)
+    - text-secondary (light dull)
+    - text-white (white text)  text-white-50 (50% opacity)
+    - text-dark (black text)
+    - text-body (default color)
+    - text-light (light grey) 
+
+5. Background colors
+    - bg-primary
+    - bg-success
+    - bg-info
+    - bg-danger
+    - bg-secondary
+    - bg-dark
+    - bg-light
+
+6. Tables
+    - table
+    - table-stripped
+    - table-bordered
+    - table-hover
+    - table-dark
+    - table-borderless
+    - All the above can be combined to gether and also applicable to particular column
+    - table-primary
+    - table-success
+    - table-danger
+    - table-info
+    - table-warning
+    - table-active
+    - table-secondary
+    - table-light
+    - table-dark
+    - table-sm (make table smaller)
+    - tabel-responsive-sm
+    - tabel-responsive-md
+    - tabel-responsive-lg
+    - tabel-responsive-xl
+    - tabel-responsive-xxl
+
+7. Image
+    - rounded (rounded corners)
+    - rounded-circle (rounded image)
+    - img-thumbnail (add frame)
+    - float-start (align left)
+    - float-end (align right)
+    - mx-auto and d-block to center the image
+    - img-fluid (responsive image)
+
+8. Alerts
+    - alert-success
+    - alert-info
+    - alert-warning
+    - alert-danger
+    - alert-primary
+    - alert-secondary
+    - alert-light
+    - alert-dark
+9. Alert links
+    - add alert class to div and add "alert-link" to the inside link.
+
+10. Closing alerts
+    - add alert-dismissible, fade, show to container
+    - add btn-close data-bs-dismiss="alert" to button
+
+11. Buttons ( Used to a,button, input)
+    -btn
+    -btn-primary
+    -btn-secondary
+    -btn-success
+    -btn-info
+    -btn-warning
+    -btn-danger
+    -btn-dark
+    -btn-light
+    -btn-link
+
+    -btn-active
+    -btn-disabled
+
+12. Button outline
+    - btn
+    - btn-outline-primary
+    - btn-outline-secondary
+    - btn-outline-success
+    - btn-outline-info
+    - btn-outline-warning
+    - btn-outline-danger
+    - btn-outline-dark
+    - btn-outline-light
+    - btn-outline-link
+
+13. Button size
+    - btn-lg
+    - btn-sm
+    - Add "d-grid" to the container for full width button
+    - gap-n used to create gap between many full width button
+
+14. Spinner
+    - spinner-border spinner-border-sm
+    - spinner-grow spinner-grow-sm
+    - spinner-border text-primary etc...
+    - spinner-grow text-success
+
+15. Button groups
+    - btn-group
+    - btn-group-lg
+    - btn-group-sm
+    - btn-group-vertical
+    
+16. Dropdown
+    - button -> class="dropdown-toggle" data-bs-toggle="dropdown"
+    - div -> class="dropdwown-menu"
+    - div -> a -> class = "dropdown-item"
+    - hr -> dropdown-divider ( seperate links )
+    - active
+    - disable
+    - dropstart ( left arrow )
+    - dropend ( right arrow )
+    - dropup ( replace dropdown for upward direction)
+    - dropdown-item-text ( to add plain text )
+
+17. Badges 
+    - badge
+    - badge bg-primary etc...
+    - rounded-pill ( For rounded badges)
+
+18. Progress bar
+    - div -> progress height:20px
+    - div -> progress-bar bg-success etc... width:70px height 20px
+    - progress-bar-striped
+    - progress-bar-animated
+    - inside one container if we have more progress then it will combine into one.
+
+19. Pagination
+    - ul -> pagination
+    - li -> page-item
+    - active for active state
+    - disable
+    - pagination-lg
+    - pagination-sm
+    - justify-content-center (aligned at center)
+    - justify-content-center (aligned at right )
+
+20. Breadcrumbs (Another form of pagination)
+    - ul -> breadcrumb
+    - li -> breadcrumb-item
+
+21. List grouping
+    - ul -> list-group
+    - li -> list-group-item'
+    - list-group-item-action (Clickable)
+    - list-group-flush ( remove rounded corner)
+    - list-group-numbered
+    - active
+    - disable
+    - ul -> list-group-horizontal
+    - li -> list-group-item-success
+
+22. Cards
+    - container -> card
+    - content -> card-header, card-body, card-footer
+    - used with bg-success etc...
+    - inside card body -> card-tile, card-link
+    - card-img-top ( for image on top)
+    - card-img-bottom ( for iamge on bottom)
+    - card-img-overlay ( for text overlay on image) 
+
+22. Collapsible
+    - button -> data-bs-toggle="collapse" data-bs-target="#demo"
+    - div -> id+"demo" class="collapse" or class= "collapse show" to show default.
+
+23. Accordion
+    - container -> id = "accordion"
+    - card
+    - a -> class="btn" data-bs-toggle="collapse" href="#collapseOne"(clickable area)
+    - showing area -> id = "collapseOne" class="collapse show" data-bs-parent="#accordian"
+    -  a -> class="btn" data-bs-toggle="collapse" href="#collapseTwo"(clickable area)
+    - showing area -> id = "collapseTwo" class="collapse show" data-bs-parent="#accordian"
+
+24. Nav menu
+    - ul -> nav
+    - li -> nav-item
+    - justify-content-center
+    - justify-content-end
+    - ul -> nav flex-column ( vertical nav )
+  
+25. Tabs
+    - ul -> nav nav-tabs
+    - li -> nav-item
+    - ul -> nav nav-tabs nav-justified ( for equal width)
+    - li -> nav-item,a -> class="nav-link" href="#menu1" data-bs-toggle="tab" ( for dynamic tabs)
+    - div -> tab-content, div -> class="tab-pane container fade" id="home"
+
+26. Pills
+    - ul -> nav nav-pills
+    - li -> nav-item
+    - active
+    - ul -> nav nav-pills nav-justified ( for equal width)
+    - li -> nav-item,a -> class="nav-link" href="#menu1" data-bs-toggle="tab" ( for dynamic tabs)
+    - div -> tab-content, div -> class="tab-pane container fade" id="home"
+
+27. 
+

@@ -1,0 +1,206 @@
+CDN:
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+1.begining
+    -container
+    -container-fluid
+    -well (for border)
+
+2.Grid system (lg - larger, md- medium, sm- small, xs- extra small)
+    -col-md-6 (for 2 columns)
+    -col-md-4 (for 3 columns)
+    -col-md-3 (for 4 columns)
+    -col-md-2 (for 6 columns)
+
+3.Text properties
+    =>Text color
+        -text-primary ( Dark blue)
+        -text-success ( Green )
+        -text-info    ( lite blue )
+        -text-warning ( Orange )
+        -text-danger  ( Red )
+
+    =>Perticular word
+        -lead
+        -small
+
+    =>Text alignment
+        - text-left
+        - text-right
+        - text-center
+        - text-justify
+    =>Case
+        - text-lowercase
+        - text-uppercase
+        - text-capitalize
+
+
+4.Background
+    -bg-primary ( Dark blue)
+    -bg-success ( Green )
+    -bg-info    ( lite blue )
+    -bg-warning ( Orange )
+    -bg-danger  ( Red )
+
+5.list
+    - list-unstyled
+    - list-inline
+
+6. Tables
+    - table
+    - table-striped ( combine with above )
+    - table-bordered
+    - table-hover
+    - table-condensed
+    - table-responsive ( Use it in a div which is contain a table to make 
+                        table responsive with scrollbar. )
+
+7. Images
+    -img-responsive
+    -img-rounded ( combine with above )
+    -img-circle
+    -img-thumbnail
+
+8. Buttons
+    -btn 
+    -btn-default ( combine with others )
+    -btn-primary
+    -btn-success
+    -btn-info
+    -btn-warning
+    -btn-danger
+    -btn-block ( full fill the div element )
+
+9. Button size
+    -btn-xs ( combine )
+    -btn-sm
+    -btn-lg
+
+10.active/disable
+    -active ( combine )
+    -disabled
+
+11. Button groups( for div element which is contain buttons)
+    -btn-group
+    -btn-group-lg
+    -btn-group-sm
+    -btn-group-xs
+
+12.Vertical Buttons
+    -btn-group-Vertical
+
+13.Others in button
+    -btn-group-justify ( only for anchor tag, to use it for buttons make a each button inside a btn-group div. )
+
+14. Button dropdown
+    -btn-group 
+        > button( which have drop down ) 
+            > button(classes="btn dropdown-toggle")( add atribute "data-toggle='dropdown'")
+                >span with class="catet" ( for drop symbol )
+                    > ul( class="dropdown-menu" role="menu")
+                
+15. Glyphicons
+    -glyphicon glyphicon-home ( around 300 )
+
+16. Badges and lable
+    - Just add badge class
+    -label label-default
+    -label label-primary
+    -label label-info
+    -label label-danger
+    -label label-warning
+    -label label-success
+
+17. Progress Bar 
+    -progress ( empty bar )
+    -progress-bar ( progress mentioning bar )
+    -progress-bar-success
+    -progress-bar-danger
+    -progress-bar-warning
+    -progress-bar-info
+    -progress-bar-striped
+    -active
+    -role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valumnow="60"  (for visualy challanged person)
+
+18. Pagination
+    -ul>class="Pagination"
+    -active
+    -disabled
+    -Pagination-lg ( combine with Pagination class )
+    -Pagination-sm ( combine with Pagination class )
+    -Pagination-xs ( combine with Pagination class )
+
+19.breadcurmbs (To determine the page path)
+    -breadcrumb
+    -active
+
+20. Pager
+    -ul > pager
+    -ul > li > previous (for previous botton displays in left side)
+    -ul > li > next (for previous botton displays in right side)
+
+21. List groups
+    -ul > list-group and li > list-group-items
+    -active
+    -disabled
+
+22.Panel
+    -panel panel-primary
+    -panel-heading
+    -panel-body
+    -panel-footer
+
+23.dropdown
+    =>For the button
+        -btn btn-danger dropdown-toggle
+        -data-toggle='dropdown'
+    =>For the list
+        -dropdown-menu
+        -divider( can use in li)
+
+24.Collapse
+    =>For the button
+        -btn btn-success
+        -data-toggle='collapse'
+        -data-target='#box' (which is the id of collapseble place)
+    =>For the collapsable part
+        -id="box"
+        -class="collapse"
+
+    =>For the panel
+        -use anger<a> in heading panel href="id of the another 2 panels id(#box)"
+        -combine another 2 paner with div(id="box")
+        -class of the div is "panel-collapse collapse"
+
+25.Tabs 
+    -ul => nav nav-tabs
+    -li => active(for first)
+    -a => data-toggle="tab" href="#menu1"
+    =>create div.tab-content > div#menu1 .tap-pane fade (fade in active for first div)
+        -
+
+26.Pills
+    -ul => nav nav-pills nav-stacked(for Vertical bar)
+    -li => active
+    -a => data-toggle="pill" href="#menu1"
+    =>create div.tab-content > div#menu1 .tap-pane fade (fade in active for first div)
+
+27.Navbar
+    -navbar navbar-inverse navbar-fixed-top
+        => container-fluid
+        -navbar-brand ( for the logo or tilte at <a> tag)
+        -create button
+            =>type='button' class='navbar-toggle' data-toggle='collapse' data-target='#mynavbar' 
+            =>span. icon-bar(3)
+
+        =>div. collapse navbar-collapse id='mynavbar'
+            -ul> nav navbar-nav ( for Home about etc...)
+            -li > active
+            --for search box
+            -navbar-form navbar-left or navbar-right
